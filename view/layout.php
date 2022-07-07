@@ -1,16 +1,22 @@
 <html>
     <head>
-        <Title>Nha hang Wibu</Title>
+        <Title>Wibu Restaurant</Title>
         <link rel="stylesheet" href="../css/layout.css">
-    <header>KAME</header>
+    </head>
     <body>
-        <nav class="navbar">
-            <a href="home.php">Home</a> 
-            <a href="vipmember.php">Vipmember</a> 
-            <a href="statistical.php">Statistical</a>
-            <a href="setting.php">Setting</a>
-            <a href="logout.php">Logout</a>
+        <nav>
+            <div class="brand">
+                <h2>Wibu Restaurant</h2>
+            </div>
+            <ul>
+                <li><a href="home.php" aria-hidden="true">Home</a> </li>
+                <li><a href="vipmember.php" aria-hidden="true">Vipmember</a> </li>
+                <li><a href="statistical.php" aria-hidden="true">Statistical</a></li>
+                <li><a href="setting.php" aria-hidden="true">Setting</a></li>
+                <li><a href="logout.php" aria-hidden="true">Logout</a></li>
+            </ul>
         </nav>
+        <section class="section1"></section>
     </body>
     <footer>
     </footer>
